@@ -14,7 +14,6 @@ import java.awt.event.MouseListener;
 
 public class AppMain extends JFrame implements ActionListener{
 	Boolean editmode=false;
-	//수정과 등록을 구분해주기 위한 변수
 	JPanel p1 = new JPanel();
 	//왼쪽에 배치할 패널을 선언하기 위함
     JLabel[] n1 = new JLabel[4]; 
